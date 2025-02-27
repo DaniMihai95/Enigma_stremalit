@@ -7,8 +7,10 @@ Welcome to the Enigma Streamlit App – an interactive learning platform built w
 ## Files
 ### streamlit_app.py: 
 Main application file containing the logic and functionality of the app.
-### premium_photo-1694819488591-a43907d1c5cc.jpeg: Image of a dog displayed in the Layout & Media section.
-### requirements.txt: A list of dependencies required for the app to run.
+### premium_photo-1694819488591-a43907d1c5cc.jpeg:
+Image of a dog displayed in the Layout & Media section.
+### requirements.txt: 
+A list of dependencies required for the app to run.
 
 ### Features
 User Authentication: Secure login system with a regular user and a secret mode for advanced content.
@@ -27,30 +29,30 @@ git clone https://github.com/DaniMihai95/Enigma_stremalit.git
 cd Enigma_stremalit
 ```
 
-## Create a Virtual Environment:
+### Create a Virtual Environment:
 On macOS/Linux:
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-## On Windows:
+### On Windows:
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
 
-## Install the Dependencies:
+### Install the Dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-## Run the App:
+### Run the App:
 ```
 streamlit run app.py
 ```
 
-How to Contribute
+### How to Contribute
 If you'd like to contribute to this project:
 
 Fork the repository.
