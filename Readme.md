@@ -1,50 +1,55 @@
-Enigma Streamlit App
-Overview
+# Enigma Streamlit App
+
+## Overview
+
 Welcome to the Enigma Streamlit App – an interactive learning platform built with Streamlit. This app is designed to provide a hands-on experience for learning various Streamlit features, such as data visualization, interactive widgets, and layout management. In addition, the app offers a Secret Insights Mode for users to access advanced content and functionalities.
 
-Features
+## Files
+### streamlit_app.py: 
+Main application file containing the logic and functionality of the app.
+### premium_photo-1694819488591-a43907d1c5cc.jpeg: Image of a dog displayed in the Layout & Media section.
+### requirements.txt: A list of dependencies required for the app to run.
+
+### Features
 User Authentication: Secure login system with a regular user and a secret mode for advanced content.
 Data Visualization: Create interactive charts with Plotly and Streamlit, including line, bar, area, and scatter plots.
 Interactive Widgets: Experiment with widgets like text inputs, sliders, and file uploaders for personalized interactions.
-Advanced Features: Multi-select analysis, real-time clock, secret insights, and enhanced learning tools.
+### Advanced Features: 
+Multi-select analysis, real-time clock, secret insights, and enhanced learning tools.
 Cheat Sheet: A comprehensive guide to all Streamlit functionalities.
 
-Repository Content and Setup
+## Repository Content and Setup
 To get started with the project, follow these steps:
 
-Clone the Repository:
+### Clone the Repository:
 ```
 git clone https://github.com/DaniMihai95/Enigma_stremalit.git
 cd Enigma_stremalit
 ```
 
-Create a Virtual Environment:
+## Create a Virtual Environment:
 On macOS/Linux:
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-On Windows:
+## On Windows:
 ```
 python -m venv venv
 venv\Scripts\activate
 ```
 
-Install the Dependencies:
+## Install the Dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-Run the App:
+## Run the App:
 ```
 streamlit run app.py
 ```
-Files
 
-app.py: Main application file containing the logic and functionality of the app.
-premium_photo-1694819488591-a43907d1c5cc.jpeg: Image of a dog displayed in the Layout & Media section.
-requirements.txt: A list of dependencies required for the app to run.
 How to Contribute
 If you'd like to contribute to this project:
 
