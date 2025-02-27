@@ -8,31 +8,45 @@ Data Visualization: Create interactive charts with Plotly and Streamlit, includi
 Interactive Widgets: Experiment with widgets like text inputs, sliders, and file uploaders for personalized interactions.
 Advanced Features: Multi-select analysis, real-time clock, secret insights, and enhanced learning tools.
 Cheat Sheet: A comprehensive guide to all Streamlit functionalities.
-Requirements
-Streamlit
-Pandas
-NumPy
-Matplotlib
-Plotly
-Pillow
-To install the dependencies, simply run:
 
+Repository Content and Setup
+To get started with the project, follow these steps:
+
+Clone the Repository:
+```
+git clone https://github.com/DaniMihai95/Enigma_stremalit.git
+cd Enigma_stremalit
+```
+
+Create a Virtual Environment:
+On macOS/Linux:
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+On Windows:
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+Install the Dependencies:
 ```
 pip install -r requirements.txt
 ```
 
+Run the App:
+```
+streamlit run app.py
+```
 Files
+
 app.py: Main application file containing the logic and functionality of the app.
 premium_photo-1694819488591-a43907d1c5cc.jpeg: Image of a dog displayed in the Layout & Media section.
 requirements.txt: A list of dependencies required for the app to run.
-Running the App
-To run the app locally, use the following command:
-
-```
-streamlit run app.py
 How to Contribute
 If you'd like to contribute to this project:
-```
 
 Fork the repository.
 Create a new branch (git checkout -b feature-branch).
